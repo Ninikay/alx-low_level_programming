@@ -3,41 +3,41 @@
 
 /**
   * print_to_98 - To print all natural numbers from n to 98
-  * @p: Input the number to start printing from
+  * @n: Input the number to start printing from
   *
   * Return: Always 0 (success)
   */
-void print_to_98(int p)
+void print_to_98(int n)
 {
-	if (p <= 98)
+	if (n <= 98)
 	{
-		for (; p <= 98; n++)
+		for (; n <= 98; n++)
 		{
-			if (p == 98)
+			if (n == 98)
 			{
-				printf("%d", p);
+				printf("%d", n);
 				printf("\n");
 				break;
 			}
 			else
 			{
-				printf("%d, ", p);
+				printf("%d, ", n);
 			}
 		}
 	}
 	else
 	{
-		for (; p >= 98; p--)
+		for (; n >= 98; n--)
 		{
-			if (p == 98)
+			if (n == 98)
 			{
-				printf("%d", p);
+				printf("%d", n);
 				printf("\n");
 				break;
 			}
 			else
 			{
-				printf("%d, ", p);
+				printf("%d, ", n);
 			}
 		}
 	}
