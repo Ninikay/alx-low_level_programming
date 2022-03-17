@@ -1,12 +1,12 @@
 #include "main.h"
 /**
- * print_most_numbers - print numbers from 0 to 9 except 2 and 4
+ * print_most_numbers - print from 0 to 9 except 2 and 4
  *
- * Return: Return no value
+ * Return: void
  */
 void print_most_numbers(void)
 {
-	int i
+	int i;
 
 		for (i = 0; i < 10; i++)
 		{
