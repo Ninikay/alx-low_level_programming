@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * main - print the numbers from 1 to 100
+ * main - print the Fizzbuzz number 1to100
  *
  * Return: Always 0 (Success)
  */
@@ -12,9 +12,9 @@ int main(void)
 
 	for (x = 1; x <= 100; x++)
 	{
-		if ((x % 3 == 0) && (x % 100 == 0))
+		if ((x % 3 == 0) && (x % 5 == 0))
 		{
-			printf("Fizzbuzz");
+			printf("FizzBuzz");
 		}
 		else if (x % 3 == 0)
 		{
@@ -37,5 +37,5 @@ int main(void)
 
 	printf("\n");
 
-		return (0);
+	return (0);
 }
