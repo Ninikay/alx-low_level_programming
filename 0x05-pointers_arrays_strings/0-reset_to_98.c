@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-  * reset_to_98 - Writing a function that resets value in address referenced by pointer
+  * reset_to_98 - Function that resets value  referenced by pointer
   * To updates the value it points to 98
   * @n: Points to n
   *
