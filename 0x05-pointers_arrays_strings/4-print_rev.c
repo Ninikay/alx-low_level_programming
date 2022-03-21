@@ -18,7 +18,7 @@ void print_rev(char *s)
 	}
 
 	b = a - 1;
-	for (; a >= 0; a--)
+	for (; b >= 0; b--)
 	{
 		_putchar(s[b]);
 	}
