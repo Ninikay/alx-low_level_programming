@@ -4,6 +4,7 @@
 /**
   * _sqrt_recursion - Returns the natural square root of a number
   * @n: Input number to calculate
+  * @k: Number to iterate
   *
   * Return: Integer
   */
