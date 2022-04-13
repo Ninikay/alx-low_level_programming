@@ -46,7 +46,7 @@ int op_mul(int a, int b)
  * Return: division.
  */
 int op_div(int a, int b)
-{7
+{
 	if (b == 0)
 	{
 		printf("Error\n");
