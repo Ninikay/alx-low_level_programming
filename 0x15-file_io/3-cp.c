@@ -5,8 +5,6 @@
   * main - copy one file to another.
   * @argc: input argument count.
   * @argv: input argument vector.
-  * @file_from: file_from
-  * @file_to: file_to
   *
   * Return: Always 0 (Success)
   */
